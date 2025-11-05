@@ -3,6 +3,7 @@
             classpath="${antform.home}/lib/antform.jar"/>
 
 	<target name="init">
+		<echo>TESTETETSTTTETSt</echo>
 		<basename property="basedir.basename" file="${basedir}"/>
 		<property file="build.properties"/>
 		<property name="download.dir" value="download"/>
